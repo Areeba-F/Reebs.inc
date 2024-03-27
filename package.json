@@ -1,0 +1,51 @@
+{
+  "name": "hack-ed-site",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://Reebs.inc.com/",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.8",
+    "google-maps-react": "^2.0.6",
+    "moment": "^2.29.4",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^9.1.4",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "addBetaRemote": "git remote add beta git@github.com:UAlbertaCompEClub/HackEDWebsiteBetaRemote.git",
+    "addPrimeRemote": "git remote add prime git@github.com:UAlbertaCompEClub/HackEDWebsitePrimeRemote.git",
+    "addRemotes": "npm run addBetaRemote && npm run addPrimeRemote",
+    "deploybeta": "gh-pages -d build -o beta",
+    "deployprime": "gh-pages -d build -o main"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
