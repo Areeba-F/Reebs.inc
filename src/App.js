@@ -47,7 +47,7 @@ class App extends Component {
           <Row style={{ paddingLeft: "8%" ,fontFamily: 'Open Sans',}}>
             <Col className="pt-4 pb-4">
               <h2 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}}>
-                One of Alberta's Largest Student Run Hackathons
+                TSEST TEST TSE SGKDJFGHKSFDHJGLDKGD
               </h2>
               <h1 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}}>
                 January 6th-7th
